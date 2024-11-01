@@ -103,15 +103,11 @@ check out the [external provider](cluster-sync/external/README.md).
 CDI is designed to be storage agnostic.  Since it works with the kubernetes storage APIs it should work well with any configuration that can produce a Bound PVC.  The following are storage-specific notes that may be relevant when using CDI.
 
 * **NFSv3 is not supported**: CDI uses `qemu-img` to manipulate disk images and this program uses locking which is not compatible with the obsolete NFSv3 protocol.  We recommend using NFSv4.
+213123123124dfsfdfdsfdfssaas
+
+  
 
 
-## Connect with us
-
-We'd love to hear from you, reach out on Github via Issues or Pull Requests!
-
-Hit us up on [Slack](https://kubernetes.slack.com/messages/virtualization)
-
-Shoot us an email at: kubevirt-dev@googlegroups.com
 
 
 ## More details
